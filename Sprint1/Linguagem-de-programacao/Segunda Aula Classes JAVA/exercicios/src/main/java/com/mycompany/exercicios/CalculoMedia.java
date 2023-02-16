@@ -26,7 +26,7 @@ public class CalculoMedia {
         
         Double media = ((n1 + n2) / 2);
         
-        System.out.printf("Olá, %s. Sua média foi de %.1f", nome, media);
+        System.out.printf("Olá, %s. Sua média foi de %.2f", nome, media);
         
         
         

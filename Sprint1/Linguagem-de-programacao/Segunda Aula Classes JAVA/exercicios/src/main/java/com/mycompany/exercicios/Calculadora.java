@@ -18,7 +18,7 @@ public class Calculadora {
         System.out.println("Digite qualquer número");
         Double n1 = leitor.nextDouble();
         
-        System.out.println("Digite outro númeoro");
+        System.out.println("Digite outro número");
         Double n2 = leitor.nextDouble();
         
         Double soma = (n1 + n2);
