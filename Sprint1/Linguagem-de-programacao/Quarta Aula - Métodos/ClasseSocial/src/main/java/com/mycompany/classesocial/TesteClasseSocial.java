@@ -21,7 +21,7 @@ public class TesteClasseSocial {
             
             Double classe = claSoc.classe(salDig, 1045.00);
             String classificar = claSoc.DefinirClasse(classe);
-            String frase = String.format("Você recebe aproximadamente %.2f salários-mínimos.", classe);
+            String frase = String.format("Você recebe aproximadamente %.1f salários-mínimos.", classe);
             
             System.out.println(frase);
             System.out.println(String.format("Sua classe social é %s", classificar));
